@@ -1,0 +1,211 @@
+Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print('Hello world')
+Hello world
+>>>
+KeyboardInterrupt
+>>>
+>>> print("Hello World")
+Hello World
+>>> print('UK')
+UK
+>>> print (2)
+2
+>>> print (100)
+100
+>>> pront (2.0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pront' is not defined
+>>> print (3.0)
+3.0
+>>> type ("hello world")
+<class 'str'>
+>>> type ('Hello world')
+<class 'str'>
+>>> type ('2')
+<class 'str'>
+>>> type (2)
+<class 'int'>
+>>> type (2.2)
+<class 'float'>
+>>> message = 'we are doing data analysis in python'
+>>> print(message)
+we are doing data analysis in python
+>>> type(message)
+<class 'str'>
+>>> some_number = 123
+>>> type (some_number)
+<class 'int'>
+>>> print (some_number)
+123
+>>> name = olly
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> name = 'olly'
+>>> print('hello', name)
+hello olly
+>>> print('hello' + name)
+helloolly
+>>> print('hello ' + olly)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> print('hello ' + name)
+hello olly
+>>> print ('hello' + ' '+name)
+hello olly
+>>> x = 3
+>>> print(3)
+3
+>>> print(x)
+3
+>>> message = 'This is my first message'
+>>> print(message)
+This is my first message
+>>> print (olly)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> o = olly
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> Print(o)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Print' is not defined
+>>> x = 2
+>>> print (x)
+2
+>>> print(message)
+This is my first message
+>>> message = This is the second message
+  File "<stdin>", line 1
+    message = This is the second message
+                          ^
+SyntaxError: invalid syntax
+>>> message = 'This is the secod message'
+>>> print(message)
+This is the secod message
+>>> name_input=input ('What is your name')
+What is your name
+>>> print('Hello', name_input)
+Hello
+>>>
+>>> name_input=input ('What is your name')
+What is your name
+>>> print (Hello',name_input)
+  File "<stdin>", line 1
+    print (Hello',name_input)
+                            ^
+SyntaxError: EOL while scanning string literal
+>>>
+>>> name_input=input('What is your name? ')
+What is your name? print('Hello',name_input)
+>>> olly
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> name_imput = input('Whats your name')
+Whats your name
+>>> print('Hello',name_input)
+Hello print('Hello',name_input)
+>>> olly
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> print(olly)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> message = olly
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'olly' is not defined
+>>> message = steve
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'steve' is not defined
+>>> message = ('olly')
+>>> print(message)
+olly
+>>> name_input=input('What is your name? ')
+What is your name? olly
+>>> print('Hello',name_input)
+Hello olly
+>>> name_input2=input('What is your name? ')
+What is your name? Olly
+>>> print('Hello',name_input2)
+Hello Olly
+>>> name_input=input('What is your name? '
+...
+...
+... d
+  File "<stdin>", line 4
+    d
+    ^
+SyntaxError: invalid syntax
+>>> name_input=input('What is your name? ')
+What is your name? olly
+>>> name_input_removespace=name_input.strip()
+>>> print('Hello',name_input_removespace)
+Hello olly
+>>>
+>>> name_input=input('What is your name? ')
+What is your name? olly
+>>> name_input=name_input.strip()
+>>> name_input=name_input.title()
+>>> print('Hello',name_input)
+Hello Olly
+>>> 2+3
+5
+>>> a=2
+>>> b=3
+>>> print(a+b)
+5
+>>> c='2'
+>>> d='3'
+>>> print(c+d)
+23
+>>> print (2+d)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> print (a/b)
+0.6666666666666666
+>>> print (a*b)
+6
+>>> print (a*d)
+33
+>>> print (a**d)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'str'
+>>> print (a**b)
+8
+>>> print (a+d)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> c=int(c)
+>>> d=int(d)
+>>> print (c+d)
+5
+>>> x=input('what is x')
+what is x
+>>> y=input('what is y')
+what is y
+>>> x=int(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: ''
+>>> x=input('what is x? ')
+what is x? 2
+>>> y=input('what is y? ')
+what is y? 3
+>>> x=int(x)
+>>> y=int(y)
+>>> print (x+y)
+5
