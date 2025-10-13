@@ -1,0 +1,905 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPEhKYhbzQPz8omNg+aJRRs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ollyfenwickdrodge/Python-week-1/blob/main/Python%20-%20Week%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=5\n",
+        "\n",
+        "while i !=0:\n",
+        "  print ('meow')\n",
+        "  i=i-1\n",
+        "\n",
+        "  n=5\n",
+        "  while n>0:\n",
+        "    print(n)\n",
+        "    n=n-1\n",
+        "    print ('blastoff')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "w2gEMJE0_ict",
+        "outputId": "e40db729-587c-4aa7-b198-07d49ab21762"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "meow\n",
+            "5\n",
+            "blastoff\n",
+            "4\n",
+            "blastoff\n",
+            "3\n",
+            "blastoff\n",
+            "2\n",
+            "blastoff\n",
+            "1\n",
+            "blastoff\n",
+            "meow\n",
+            "5\n",
+            "blastoff\n",
+            "4\n",
+            "blastoff\n",
+            "3\n",
+            "blastoff\n",
+            "2\n",
+            "blastoff\n",
+            "1\n",
+            "blastoff\n",
+            "meow\n",
+            "5\n",
+            "blastoff\n",
+            "4\n",
+            "blastoff\n",
+            "3\n",
+            "blastoff\n",
+            "2\n",
+            "blastoff\n",
+            "1\n",
+            "blastoff\n",
+            "meow\n",
+            "5\n",
+            "blastoff\n",
+            "4\n",
+            "blastoff\n",
+            "3\n",
+            "blastoff\n",
+            "2\n",
+            "blastoff\n",
+            "1\n",
+            "blastoff\n",
+            "meow\n",
+            "5\n",
+            "blastoff\n",
+            "4\n",
+            "blastoff\n",
+            "3\n",
+            "blastoff\n",
+            "2\n",
+            "blastoff\n",
+            "1\n",
+            "blastoff\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "  n=5\n",
+        "  while n>0:\n",
+        "    print(n)\n",
+        "    n=n-1\n",
+        "    print ('blastoff')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2DsDQtHYAP2M",
+        "outputId": "566eba09-1e09-4e5f-df7f-eaaf337759b0"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "blastoff\n",
+            "4\n",
+            "blastoff\n",
+            "3\n",
+            "blastoff\n",
+            "2\n",
+            "blastoff\n",
+            "1\n",
+            "blastoff\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in [0,1,2]:\n",
+        "  print('meow')\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CrbnJONKAXGu",
+        "outputId": "78a3fe73-f9b9-44f7-9f00-d61f77889a85"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "meow\n",
+            "meow\n",
+            "meow\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in [123,456,789]:\n",
+        "  print('meow')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tTD4UU73A0BM",
+        "outputId": "34b51bdf-f8c2-404c-e383-3c9d76bed429"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "meow\n",
+            "meow\n",
+            "meow\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (3):\n",
+        "  print('meow')\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_5ZYRXBVBGUY",
+        "outputId": "ff2cf2a5-20c3-4c10-fc5b-83d27938271f"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "meow\n",
+            "meow\n",
+            "meow\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (10):\n",
+        "  print ('meow')\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vH8Sa1T0Bej0",
+        "outputId": "a159b9e7-acb0-49b2-80a6-f55e990f8f1d"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n",
+            "meow\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in [0,1,2,3]:\n",
+        "  print ('hello')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rHINdDRnBmcV",
+        "outputId": "3743bbb6-616a-46af-f8b6-2422897c2cf0"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n",
+            "hello\n",
+            "hello\n",
+            "hello\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (4):\n",
+        "  print ('hello')\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6Dw6o_yUCFeR",
+        "outputId": "349ca14a-5c6b-4586-9b82-60181bfb8e72"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n",
+            "hello\n",
+            "hello\n",
+            "hello\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = 'olly'\n",
+        "age = 20"
+      ],
+      "metadata": {
+        "id": "t7vGiWkCCMeB"
+      },
+      "execution_count": 16,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "olly_age=20"
+      ],
+      "metadata": {
+        "id": "YpdgKmUPCrKA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=[43,67,8,14]\n",
+        ""
+      ],
+      "metadata": {
+        "id": "ek0CYQ3HCwpI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "- List : [] ; list()           ways to store info\n",
+        "- Dictionary : {} ; dict()\n",
+        "- Tuple : ()"
+      ],
+      "metadata": {
+        "id": "8qnpUXCFDCcT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "students = {'Olly': 'OD',\n",
+        "            'Sid' : 'SD',\n",
+        "            'Jenson':'JB'}"
+      ],
+      "metadata": {
+        "id": "ZCZL3yvsDdgs"
+      },
+      "execution_count": 35,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students=['Olly','Sid','Jenson']"
+      ],
+      "metadata": {
+        "id": "ITecaLPMEIlv"
+      },
+      "execution_count": 24,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "animals=['dog','cat','cow']"
+      ],
+      "metadata": {
+        "id": "dDxXvASpEUBZ"
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "anything = ['spam', 2.0, 5, [10, 'spamming']]"
+      ],
+      "metadata": {
+        "id": "mKFFkdDwEgtM"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "empty=[]\n"
+      ],
+      "metadata": {
+        "id": "gEzdCzY8E_0v"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "len(list_of_students)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZnAfl_ZkFCfM",
+        "outputId": "0d43a8e3-22f0-41f6-8fdd-9ab8451bb82a"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 25
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students[0]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "jvwofq8QFcPW",
+        "outputId": "a070adf2-a1a5-46e4-f378-1ae74a1f088e"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Olly'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 26
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students[2]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "VD7zmluFFiKH",
+        "outputId": "303a1619-2cab-439f-cf6c-8375f5750644"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Jenson'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students[1]\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "32W63tcBFm5r",
+        "outputId": "727f11c8-9554-4c84-a60e-717208fb030b"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Sid'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 28
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students.append('adam')"
+      ],
+      "metadata": {
+        "id": "njKmAljqGCL9"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "b3c5YzsOGJsO",
+        "outputId": "f0112436-f92c-4424-b23f-e72c8729424c"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Olly', 'Sid', 'Jenson', 'adam']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 30
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students[3]='Wayne'"
+      ],
+      "metadata": {
+        "id": "TW9wnLd8GOP8"
+      },
+      "execution_count": 31,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_of_students"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i7y0130_Gcva",
+        "outputId": "b902ec85-c616-496f-9ffc-4cf2d744b79e"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Olly', 'Sid', 'Jenson', 'Wayne']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 32
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(list_of_students[0])\n",
+        "print(list_of_students[1])\n",
+        "print(list_of_students[2])\n",
+        "print(list_of_students[3])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Lev4PwAfGhPw",
+        "outputId": "4cb668a7-80e9-4fd8-d1ad-f00cf5651ece"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olly\n",
+            "Sid\n",
+            "Jenson\n",
+            "Wayne\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for x in list_of_students:\n",
+        "  print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X0CpA3GBHRuY",
+        "outputId": "843d7e51-6e5a-4f06-db5a-44e9c4db0840"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olly\n",
+            "Sid\n",
+            "Jenson\n",
+            "Wayne\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "students=['Olly','Sid','Jenson']\n",
+        "ages=['20','15','8']"
+      ],
+      "metadata": {
+        "id": "W8nPlObdHvaI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "students = {'Olly': '20',\n",
+        "            'Sid' : '15',\n",
+        "            'Jenson':'8'}"
+      ],
+      "metadata": {
+        "id": "d8mpe2fLIUQ4"
+      },
+      "execution_count": 39,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(students['Olly'])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n3N5ggTtId97",
+        "outputId": "29ab08db-3df8-484c-b9b7-77fa7b7c34c9"
+      },
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(students['Sid'])\n",
+        "print(students['Jenson'])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8BMa2HqwIu1Q",
+        "outputId": "9c4407b8-e957-43a2-d4ab-ea8f23a2722d"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for name in students:\n",
+        "  print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oOis-NuZI7Kt",
+        "outputId": "ac2c8ef7-8250-4a63-98c9-05bbf9ff054a"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olly\n",
+            "Sid\n",
+            "Jenson\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for name in students:\n",
+        "  print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Eanws7XrJTAA",
+        "outputId": "115b8314-8e7b-4e53-8ed8-3d33231595b3"
+      },
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olly\n",
+            "Sid\n",
+            "Jenson\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for name in students:\n",
+        "  print(students[name])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SmWm1GkFJcsh",
+        "outputId": "e2812e7d-90b0-48b4-f195-fecf524ffed6"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n",
+            "15\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(students['Olly'])\n",
+        "print(students['Sid'])\n",
+        "print(students['Jenson'])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UnJl8sj8J6ro",
+        "outputId": "918e36f2-1178-437e-ee25-09277af705c6"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20 ['20']\n",
+            "15\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(list_of_students[0],20)\n",
+        "print(list_of_students[1],15)\n",
+        "print(list_of_students[2],8)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H_7LPdwaKehR",
+        "outputId": "a049319e-cd41-4065-f205-025b6f6a18dd"
+      },
+      "execution_count": 62,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olly 20\n",
+            "Sid 15\n",
+            "Jenson 8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for name in students:\n",
+        "  print(name,students[name])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TAhn6O8YLuYK",
+        "outputId": "0ef66373-4e40-48ed-b407-037edb2c195e"
+      },
+      "execution_count": 74,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olly 20\n",
+            "Sid 15\n",
+            "Jenson 8\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
